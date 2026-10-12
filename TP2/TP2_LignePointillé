@@ -1,0 +1,9 @@
+from pylab import *
+
+xlim(0,20)
+ylim(0,4.0)
+
+def f(x):
+    
+
+show()
