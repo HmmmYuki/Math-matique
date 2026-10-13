@@ -1,11 +1,13 @@
 from pylab import *
-xlim(0,20)
-ylim(0,4.0)
-def f(x):
-    y=3
-    return y
+xlim(0,50)
+ylim(0,50)
 
-for i in range(5, 16):
+def f(x):
+    y=40
+    y2=10
+    return y, y2
+
+for i in range(10, 40):
     x=i
     plot(x,f(x),'*')
 
