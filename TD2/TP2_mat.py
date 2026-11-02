@@ -1,13 +1,14 @@
 from pylab import *
 def f(x):
-    y=2
+    y=x**2
     return y
 
 pas=1
 listex=[]
 listey=[]
+
 for i in range(0,20) : 
-    x=10
+    x=10+i*pas
     y=f(x)
     listex.append(x)
     listey.append(y)
