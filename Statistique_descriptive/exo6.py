@@ -15,3 +15,4 @@ for i in range(30):
 
 print(temperature_max)
 print(temperature_min)
+sort(aout)
