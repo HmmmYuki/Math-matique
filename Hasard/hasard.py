@@ -1,2 +1,4 @@
-from random import randint #La fonction randint(a,b) permet de retourner un nombre entier entre a et b (bornes comprises)
-print(randint(1,6)) 
+#La fonction choice permet de retourner un élément aléatoire d'une liste, par exemple.
+from random import choice
+liste=['a','b','c','d']
+print(choice(liste)) 
