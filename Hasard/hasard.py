@@ -1,4 +1,17 @@
-#La fonction choice permet de retourner un élément aléatoire d'une liste, par exemple.
-from random import choice
-liste=['a','b','c','d']
-print(choice(liste)) 
+from random import randint
+for i in range(100):
+    r = randint (0, 1)
+    if r <= 0.2172:
+        de = 6
+    elif r <= 0.1309:
+        de = 2
+    elif r <= 0.2157:
+        de = 3
+    elif r <= 0.1987:
+        de = 4
+    elif r <= 0.1123:
+        de = 5
+    elif r <= 0.1252:
+        de = 1
+
+print (de)
